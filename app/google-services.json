@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "56287392660",
+    "project_id": "solo-leveling-habit-tracker",
+    "storage_bucket": "solo-leveling-habit-tracker.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:56287392660:android:841e6f3fee1fb267741581",
+        "android_client_info": {
+          "package_name": "ru.habit.tracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH1dVt9dr5Qh_LMKhW1B8A-T-ZiJUlV4o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
