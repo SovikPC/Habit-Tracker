@@ -8,18 +8,30 @@ import androidx.compose.material3.dynamicDarkColorScheme
 import androidx.compose.material3.dynamicLightColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 
 private val DarkColorScheme = darkColorScheme(
-    primary = Purple80,
-    secondary = PurpleGrey80,
-    tertiary = Pink80
+    primary = SlElectricBlue,
+    secondary = SlPurple,
+    tertiary = SlGold,
+    background = SlDarkBlue,
+    surface = SlNavy,
+    onPrimary = Color.Black,
+    onSecondary = Color.White,
+    onBackground = Color.White,
+    onSurface = Color(0xFFE2E8F0),
+
+    // Дополнительные цвета для Solo Leveling стиля
+    error = SlRed,
+    primaryContainer = Color(0xFF1E293B),
+    secondaryContainer = Color(0xFF2D1B69)
 )
 
 private val LightColorScheme = lightColorScheme(
-    primary = Purple40,
-    secondary = PurpleGrey40,
-    tertiary = Pink40
+    primary = Color(0xFF0066CC),
+    secondary = Color(0xFF625B71),
+    tertiary = Color(0xFF7D5260)
 
     /* Other default colors to override
     background = Color(0xFFFFFBFE),
