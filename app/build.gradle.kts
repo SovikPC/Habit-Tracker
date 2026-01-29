@@ -3,6 +3,7 @@ plugins {
     id("com.google.devtools.ksp")
     id("com.google.dagger.hilt.android")
     alias(libs.plugins.compose.compiler)
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -41,6 +42,10 @@ android {
 }
 
 dependencies {
+
+    //Firebase
+    implementation(platform("com.google.firebase:firebase-bom:34.8.0"))
+    implementation("com.google.firebase:firebase-analytics")
 
     //Paging 3
     val paging_version = "3.3.6"
